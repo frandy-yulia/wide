@@ -11,7 +11,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./entry.js",
+    "start": "node ./entry.js"
   },
   "author": "Frandy (frandy.yulia@gmail.com)",
   "license": "MIT",
